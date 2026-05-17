@@ -29,14 +29,6 @@ Dark gradients, blur effects, smooth animations, and calming visuals.
 
 ---
 
-## 🖼 Screenshots
-
-Welcome Screen | Mode Selection | Session Complete | Stats Screen  
----|---|---|---  
-📸 | 📸 | 📸 | 📸  
-
----
-
 ## 🗺 App Flow
 
 Welcome → Mode Selection → Breathe Session → Session Complete → Stats → Repeat  
