@@ -1,127 +1,149 @@
-MindBreath App 🌬️
+# 🌬️ MindBreath App
 
-MindBreath is a React Native mobile application designed to help users relax, focus, and sleep better using guided breathing exercises. Track your mindfulness journey, monitor your progress, and cultivate healthy mental wellness habits.
+MindBreath is a modern React Native mobile application designed to improve mental wellness through guided breathing exercises. It helps users relax, focus, and sleep better using structured breathing sessions, progress tracking, and a smooth calming UI experience.
 
-🌟 Features
+---
 
-Mode-Based Breathing: Choose Calm, Focus, or Sleep mode.
+## 🌟 Features
 
-Session Insights: Track duration, tips, streaks, and mood.
+🧘 Guided Breathing Modes  
+Choose Calm, Focus, or Sleep based on your mental state.
 
-Statistics Dashboard: Weekly progress, daily focus score, and streaks.
+📊 Session Insights  
+Track breathing cycles, duration, mood, and session tips.
 
-Quick Start Buttons: Start any session in one tap.
+📈 Progress Dashboard  
+Monitor weekly activity, streaks, and daily focus score.
 
-Share Achievements: Share session completions with friends.
+⚡ One-Tap Start  
+Instantly start breathing sessions with a single tap.
 
-Smooth UI/UX: Dark gradients, blur effects, and subtle animations.
+🏆 Streak System  
+Build consistency with daily mindfulness tracking.
 
-🖼 Screenshots
-Welcome Screen	Mode Selection	Session Complete
+📤 Share Achievements  
+Share completed sessions with friends.
 
-	
-	
-Stats Screen
+🎨 Premium UI/UX  
+Dark gradients, blur effects, smooth animations, and calming visuals.
 
-🗺 Navigation Flow
+---
 
-<img width="2147" height="280" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/88cc7b30-6951-41c1-b9d1-bc60358261ed" />
+## 🖼 Screenshots
 
+Welcome Screen | Mode Selection | Session Complete | Stats Screen  
+---|---|---|---  
+📸 | 📸 | 📸 | 📸  
 
+---
 
-Navigation Explanation:
+## 🗺 App Flow
 
-WelcomeScreen → ModeScreen: User selects session type.
+Welcome → Mode Selection → Breathe Session → Session Complete → Stats → Repeat  
 
-ModeScreen → BreatheScreen: Start guided breathing session.
+User Flow:
+- Open app on Welcome Screen  
+- Select breathing mode (Calm / Focus / Sleep)  
+- Follow guided breathing animation  
+- View session results and insights  
+- Track progress in Stats dashboard  
+- Repeat daily for mental wellness growth  
 
-BreatheScreen → SessionCompleteScreen: Show session results and tips.
+---
 
-SessionCompleteScreen → StatsScreen: View detailed statistics.
+## 🛠 Tech Stack
 
-Loops back to ModeScreen for new sessions.
+| Category | Tools |
+|----------|------|
+| Framework | React Native + Expo |
+| Language | TypeScript |
+| Navigation | React Navigation |
+| State Storage | AsyncStorage |
+| UI | Expo LinearGradient, BlurView |
+| Icons | Feather, Ionicons, MaterialCommunityIcons |
+| Haptics | Expo Haptics |
+| Animations | React Native Animated API |
 
-🛠 Tech Stack
-Category	Tools
-Framework	React Native + Expo
-Language	TypeScript
-Navigation	React Navigation
-State & Storage	AsyncStorage
-UI Components	Expo LinearGradient, BlurView
-Icons	Feather, Ionicons, MaterialCommunityIcons
-Haptics	Expo Haptics
-Animations	Animated API, Expo LinearGradient
-📂 Project Structure
+---
+
+## 📂 Project Structure
+
 MindBreathApp/
-├── assets/                # Images, icons, screenshots
-├── components/            # Reusable components
-│   └── ModeSelector.tsx
-├── lib/                   # Helper functions (stats management)
-│   └── stats.ts
-├── screens/               # All screens
-│   ├── WelcomeScreen.tsx
-│   ├── ModeScreen.tsx
-│   ├── BreatheScreen.tsx
-│   ├── SessionCompleteScreen.tsx
-│   └── StatsScreen.tsx
-├── App.tsx                # Root with navigation
-├── package.json
-└── tsconfig.json
-🚀 Getting Started
-Prerequisites
+├── assets/ # Images, icons, and UI assets  
+├── components/ # Reusable UI components  
+│ └── ModeSelector.tsx  
+├── lib/ # Logic & helper functions  
+│ └── stats.ts  
+├── screens/ # App screens  
+│ ├── WelcomeScreen.tsx  
+│ ├── ModeScreen.tsx  
+│ ├── BreatheScreen.tsx  
+│ ├── SessionCompleteScreen.tsx  
+│ └── StatsScreen.tsx  
+├── App.tsx # App navigation root  
+├── package.json  
+└── tsconfig.json  
 
-Node.js >= 18
+---
 
-npm or yarn
+## 🚀 Getting Started
 
-Expo CLI globally
+### Requirements
+- Node.js >= 18  
+- npm or yarn  
+- Expo CLI installed globally  
 
-npm install -g expo-cli
-Installation
-git clone https://github.com/izharahmaad/MindBreathApp.git
-cd MindBreathApp
-npm install
-# or
-yarn install
+### Install Expo CLI
+npm install -g expo-cli  
 
-Start the app:
+### Clone & Install
+git clone https://github.com/izharahmaad/MindBreathApp.git  
+cd MindBreathApp  
+npm install  
 
-expo start
+### Run App
+expo start  
 
-Open in Expo Go on your mobile device or simulator.
+Open in:
+- 📱 Expo Go (Android / iOS)  
+- 💻 Emulator / Simulator  
 
-🎯 Usage
+---
 
-Welcome Screen – Tap “Let’s Calm” to start.
+## 🎯 Usage
 
-Mode Selection – Choose Calm, Focus, or Sleep.
+- Open app  
+- Tap “Let’s Calm”  
+- Choose Calm / Focus / Sleep mode  
+- Follow guided breathing animation  
+- View session results  
+- Track progress in Stats dashboard  
+- Repeat daily for consistency  
 
-Breathe Session – Follow the guided breathing animation.
+---
 
-Session Complete – View session summary and tips.
+## 🔮 Future Enhancements
 
-Stats Screen – Track streaks, focus, and weekly activity.
+- 🔔 Daily mindfulness reminders  
+- ⏱ Custom breathing sessions  
+- 🌙 Light/Dark theme toggle  
+- 🏆 Leaderboards & sharing  
+- 📊 Advanced analytics dashboard  
+- 🎧 Ambient sound integration  
 
-🔮 Future Enhancements
+---
 
-Push daily notifications for mindfulness reminders.
+## 🤝 Contributing
 
-Enable custom session durations.
+Fork repo  
+Create branch: git checkout -b feature-name  
+Commit: git commit -m "Add feature"  
+Push: git push origin feature-name  
+Open Pull Request  
 
-Add leaderboards or social sharing.
+---
 
-Light/Dark mode toggle.
+## 🌿 Final Note
 
-🤝 Contributing
-
-Contributions are welcome:
-
-Fork the repository
-
-Create a branch: git checkout -b feature-name
-
-Commit your changes: git commit -m "Add feature"
-
-Push to the branch: git push origin feature-name
-
-Open a Pull Request
+Breathe deeply. Stay calm. Stay consistent.  
+MindBreath helps you build a healthier, more mindful life.
